@@ -1,0 +1,67 @@
+blockquote, body, button, dd, dl, dt, embed, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, object, ol, pre, table, td, th, ul {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-family: PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif,Simsun;
+  color: #333;
+}
+i {
+  font-style:normal
+}
+h3, h4 {
+  font-weight: 400;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: #333;
+}
+div, p {
+  padding: 0;
+  margin: 0;
+}
+
+a:hover {
+  color:#333
+}
+
+em, input {
+  font-style: normal;
+}
+
+
+/*在Chrome下移除input[number]的上下箭头*/
+.no-number::-webkit-outer-spin-button,
+.no-number::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none !important;
+}
+ 
+.no-number input[type="number"]::-webkit-outer-spin-button,
+.no-number input[type="number"]::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none !important;
+}
+ 
+/*在firefox下移除input[number]的上下箭头*/
+.no-number {
+  -moz-appearance: textfield;
+}
+ 
+.no-number input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
